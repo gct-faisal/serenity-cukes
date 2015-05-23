@@ -1,0 +1,19 @@
+<acceptance-test-run title="a few cukes" name="a few cukes" description="" steps="3" successful="1" failures="0" skipped="0" ignored="0" pending="2" annotated-result="PENDING" result="PENDING" duration="406" timestamp="2015-05-23T18:48:52.893-04:00">
+  <user-story id="belly" name="Belly" path="belly/belly.feature"/>
+  <tags>
+    <tag name="Belly" type="capability"/>
+    <tag name="Belly" type="feature"/>
+    <tag name="Belly/Belly" type="feature"/>
+    <tag name="Belly/Belly" type="story"/>
+    <tag name="belly" type="tag"/>
+  </tags>
+  <test-step result="SUCCESS" duration="141">
+    <description>Given I have 42 cukes in my belly</description>
+  </test-step>
+  <test-step result="PENDING" duration="1">
+    <description>When I wait 1 hour</description>
+  </test-step>
+  <test-step result="PENDING" duration="2">
+    <description>Then my belly should growl</description>
+  </test-step>
+</acceptance-test-run>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="0" time="2.704" errors="0" skipped="3" tests="5" name="skeleton.RunCukesTest">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="cucumber.options" value="--tags @belly"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_75.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="24.75-b04"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/fhumayun/GitQA/serenityBDD/serenity-cukes"/>
+    <property name="java.runtime.version" value="1.7.0_75-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_75.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/5k/g6rb0tjj50lgpbvt91cym4600000gn/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/Users/fhumayun/Tools/apache-maven-3.2.5/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/fhumayun/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="51.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.10.3"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/fhumayun"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.7"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="fhumayun"/>
+    <property name="java.class.path" value="/Users/fhumayun/Tools/apache-maven-3.2.5/boot/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.7"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_75.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dcucumber.options=--tags @belly test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.7.0_75"/>
+    <property name="java.ext.dirs" value="/Users/fhumayun/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.7.0_75.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_75.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_75.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_75.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_75.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_75.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_75.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_75.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_75.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/Users/fhumayun/Tools/apache-maven-3.2.5"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase time="0.003" classname="Scenario: a few cukes" name="Given I have 42 cukes in my belly"/>
+  <testcase time="0.005" classname="Scenario: a few cukes" name="When I wait 1 hour">
+    <skipped/>
+  </testcase>
+  <testcase time="0.007" classname="Scenario: a few cukes" name="Then my belly should growl">
+    <skipped/>
+    <system-err>933 [main] INFO net.serenitybdd.core.Serenity - TEST PENDING
+</system-err>
+  </testcase>
+  <testcase time="1.344" classname="Scenario: a few cukes" name="Scenario: a few cukes">
+    <skipped/>
+    <system-err>936 [main] INFO net.serenitybdd.core.Serenity - TEST PENDING
+936 [main] INFO net.serenitybdd.core.Serenity - 
+            __  _____ _____ ____ _____   ____  _  _____ ____  ____  _____ ____  
+  _        / / |_   _| ____/ ___|_   _| / ___|| |/ /_ _|  _ \|  _ \| ____|  _ \ 
+ (_)_____ / /    | | |  _| \___ \ | |   \___ \| &apos; / | || |_) | |_) |  _| | | | |
+  _|_____/ /     | | | |___ ___) || |    ___) | . \ | ||  __/|  __/| |___| |_| |
+ (_)    /_/      |_| |_____|____/ |_|   |____/|_|\_\___|_|   |_|   |_____|____/ 
+                                                                                
+
+TEST PENDING: a few cukes
+---------------------------------------------------------------------------------
+940 [main] INFO net.thucydides.core.reports.ReportService - Reporting formats: [JSON, XML, HTML]
+944 [main] INFO net.thucydides.core.reports.ReportService - Found reporter: net.thucydides.core.reports.xml.XMLTestOutcomeReporter@23c4a572(format = Optional.of(XML))
+944 [main] INFO net.thucydides.core.reports.ReportService - Registering reporter: net.thucydides.core.reports.xml.XMLTestOutcomeReporter@23c4a572
+948 [main] INFO net.thucydides.core.reports.ReportService - Found reporter: net.thucydides.core.reports.json.JSONTestOutcomeReporter@53b49076(format = Optional.of(JSON))
+948 [main] INFO net.thucydides.core.reports.ReportService - Registering reporter: net.thucydides.core.reports.json.JSONTestOutcomeReporter@53b49076
+1013 [main] INFO net.thucydides.core.reports.ReportService - Found reporter: net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@13fbf741(format = Optional.of(HTML))
+1013 [main] INFO net.thucydides.core.reports.ReportService - Registering reporter: net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@13fbf741
+1174 [main] INFO net.thucydides.core.reports.ReportService - Generating reports using: net.thucydides.core.reports.xml.XMLTestOutcomeReporter@23c4a572
+1180 [main] INFO net.thucydides.core.reports.ReportService - Processing test outcome Belly:a few cukes
+1180 [main] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.xml.XMLTestOutcomeReporter@23c4a572: Generating report for test outcome: Belly:a few cukes
+1296 [main] INFO net.thucydides.core.reports.xml.XMLTestOutcomeReporter - Generating XML report for a few cukes to file /Users/fhumayun/GitQA/serenityBDD/serenity-cukes/target/site/serenity/fd49834771f4e5022152607d3d4e1b10c0cd22d2f03d82f498dda9bda15a5280.xml
+1346 [main] INFO net.thucydides.core.reports.xml.XMLTestOutcomeReporter - XML report generated (/Users/fhumayun/GitQA/serenityBDD/serenity-cukes/target/site/serenity/fd49834771f4e5022152607d3d4e1b10c0cd22d2f03d82f498dda9bda15a5280.xml bytes) 915
+1354 [main] INFO net.thucydides.core.reports.ReportService - Report generated for Belly:a few cukes
+1354 [main] INFO net.thucydides.core.reports.junit.JUnitXMLOutcomeReporter - GENERATING JUNIT REPORTS
+1355 [main] INFO net.thucydides.core.reports.junit.JUnitXMLOutcomeReporter - GENERATING JUNIT REPORT SERENITY-JUNIT-fd49834771f4e5022152607d3d4e1b10c0cd22d2f03d82f498dda9bda15a5280.xml
+1620 [main] INFO net.thucydides.core.reports.ReportService - Reports generated in: 446
+1620 [main] INFO net.thucydides.core.reports.ReportService - Generating reports using: net.thucydides.core.reports.json.JSONTestOutcomeReporter@53b49076
+1621 [main] INFO net.thucydides.core.reports.junit.JUnitXMLOutcomeReporter - GENERATING JUNIT REPORTS
+1621 [pool-2-thread-1] INFO net.thucydides.core.reports.ReportService - Processing test outcome Belly:a few cukes
+1621 [pool-2-thread-1] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.json.JSONTestOutcomeReporter@53b49076: Generating report for test outcome: Belly:a few cukes
+1621 [main] INFO net.thucydides.core.reports.junit.JUnitXMLOutcomeReporter - GENERATING JUNIT REPORT SERENITY-JUNIT-fd49834771f4e5022152607d3d4e1b10c0cd22d2f03d82f498dda9bda15a5280.xml
+1649 [pool-2-thread-1] INFO net.thucydides.core.reports.ReportService - Report generated for Belly:a few cukes
+1679 [main] INFO net.thucydides.core.reports.ReportService - Reports generated in: 59
+1679 [main] INFO net.thucydides.core.reports.ReportService - Generating reports using: net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@13fbf741
+1679 [main] INFO net.thucydides.core.reports.junit.JUnitXMLOutcomeReporter - GENERATING JUNIT REPORTS
+1679 [pool-3-thread-1] INFO net.thucydides.core.reports.ReportService - Processing test outcome Belly:a few cukes
+1679 [pool-3-thread-1] INFO net.thucydides.core.reports.ReportService - net.thucydides.core.reports.html.HtmlAcceptanceTestReporter@13fbf741: Generating report for test outcome: Belly:a few cukes
+1680 [main] INFO net.thucydides.core.reports.junit.JUnitXMLOutcomeReporter - GENERATING JUNIT REPORT SERENITY-JUNIT-fd49834771f4e5022152607d3d4e1b10c0cd22d2f03d82f498dda9bda15a5280.xml
+1680 [pool-3-thread-1] INFO net.thucydides.core.requirements.RequirementsTagProvider - Reading requirements from net.thucydides.core.requirements.FileSystemRequirementsTagProvider@510eb04b
+1680 [pool-3-thread-1] INFO net.thucydides.core.requirements.RequirementsTagProvider - Requirement ancestors for:Requirement{name=&apos;Belly&apos;, type=&apos;capability&apos; parent = &apos;null&apos;, cardNumber=&apos;null&apos;} = [Requirement{name=&apos;Belly&apos;, type=&apos;capability&apos; parent = &apos;null&apos;, cardNumber=&apos;null&apos;}]
+1681 [pool-3-thread-1] INFO net.thucydides.core.requirements.RequirementsTagProvider - Requirement ancestors for:Requirement{name=&apos;Belly&apos;, type=&apos;feature&apos; parent = &apos;Belly&apos;, cardNumber=&apos;null&apos;} = [Requirement{name=&apos;Belly&apos;, type=&apos;capability&apos; parent = &apos;null&apos;, cardNumber=&apos;null&apos;}, Requirement{name=&apos;Belly&apos;, type=&apos;feature&apos; parent = &apos;Belly&apos;, cardNumber=&apos;null&apos;}]
+1681 [pool-3-thread-1] INFO net.thucydides.core.requirements.RequirementsTagProvider - Requirement ancestors for:Requirement{name=&apos;Calculator&apos;, type=&apos;capability&apos; parent = &apos;null&apos;, cardNumber=&apos;null&apos;} = [Requirement{name=&apos;Calculator&apos;, type=&apos;capability&apos; parent = &apos;null&apos;, cardNumber=&apos;null&apos;}]
+1681 [pool-3-thread-1] INFO net.thucydides.core.requirements.RequirementsTagProvider - Requirement ancestors for:Requirement{name=&apos;Calculator&apos;, type=&apos;feature&apos; parent = &apos;Calculator&apos;, cardNumber=&apos;null&apos;} = [Requirement{name=&apos;Calculator&apos;, type=&apos;capability&apos; parent = &apos;null&apos;, cardNumber=&apos;null&apos;}, Requirement{name=&apos;Calculator&apos;, type=&apos;feature&apos; parent = &apos;Calculator&apos;, cardNumber=&apos;null&apos;}]
+1681 [pool-3-thread-1] INFO net.thucydides.core.requirements.RequirementsTagProvider - Requirement ancestors for:Requirement{name=&apos;Fizzbuzz&apos;, type=&apos;capability&apos; parent = &apos;null&apos;, cardNumber=&apos;null&apos;} = [Requirement{name=&apos;Fizzbuzz&apos;, type=&apos;capability&apos; parent = &apos;null&apos;, cardNumber=&apos;null&apos;}]
+1681 [pool-3-thread-1] INFO net.thucydides.core.requirements.RequirementsTagProvider - Requirement ancestors for:Requirement{name=&apos;Fizz buzz game&apos;, type=&apos;feature&apos; parent = &apos;Fizzbuzz&apos;, cardNumber=&apos;null&apos;} = [Requirement{name=&apos;Fizzbuzz&apos;, type=&apos;capability&apos; parent = &apos;null&apos;, cardNumber=&apos;null&apos;}, Requirement{name=&apos;Fizz buzz game&apos;, type=&apos;feature&apos; parent = &apos;Fizzbuzz&apos;, cardNumber=&apos;null&apos;}]
+1682 [pool-3-thread-1] INFO net.thucydides.core.requirements.RequirementsTagProvider - Requirement ancestors for:Requirement{name=&apos;Search&apos;, type=&apos;capability&apos; parent = &apos;null&apos;, cardNumber=&apos;null&apos;} = [Requirement{name=&apos;Search&apos;, type=&apos;capability&apos; parent = &apos;null&apos;, cardNumber=&apos;null&apos;}]
+1682 [pool-3-thread-1] INFO net.thucydides.core.requirements.RequirementsTagProvider - Requirement ancestors for:Requirement{name=&apos;Searching by keyword&apos;, type=&apos;feature&apos; parent = &apos;Search&apos;, cardNumber=&apos;null&apos;} = [Requirement{name=&apos;Search&apos;, type=&apos;capability&apos; parent = &apos;null&apos;, cardNumber=&apos;null&apos;}, Requirement{name=&apos;Searching by keyword&apos;, type=&apos;feature&apos; parent = &apos;Search&apos;, cardNumber=&apos;null&apos;}]
+1682 [pool-3-thread-1] INFO net.thucydides.core.requirements.RequirementsTagProvider - Requirements found:[Requirement{name=&apos;Belly&apos;, type=&apos;capability&apos; parent = &apos;null&apos;, cardNumber=&apos;null&apos;}, Requirement{name=&apos;Calculator&apos;, type=&apos;capability&apos; parent = &apos;null&apos;, cardNumber=&apos;null&apos;}, Requirement{name=&apos;Fizzbuzz&apos;, type=&apos;capability&apos; parent = &apos;null&apos;, cardNumber=&apos;null&apos;}, Requirement{name=&apos;Search&apos;, type=&apos;capability&apos; parent = &apos;null&apos;, cardNumber=&apos;null&apos;}]
+2252 [pool-3-thread-1] INFO net.thucydides.core.reports.html.HtmlAcceptanceTestReporter - GENERATING HTML REPORT FOR Belly:a few cukes =&gt; fd49834771f4e5022152607d3d4e1b10c0cd22d2f03d82f498dda9bda15a5280.html
+2265 [pool-3-thread-1] INFO net.thucydides.core.reports.ReportService - Report generated for Belly:a few cukes
+2270 [main] INFO net.thucydides.core.reports.ReportService - Reports generated in: 591
+</system-err>
+  </testcase>
+  <testcase time="1.345" classname="Scenario: a few cukes" name="Scenario: a few cukes"/>
+</testsuite>

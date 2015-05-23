@@ -1,0 +1,36 @@
+<acceptance-test-run title="Get answers based on played numbers" name="Get answers based on played numbers" description="" steps="3" successful="3" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="678" timestamp="2015-05-23T18:46:05.581-04:00">
+  <user-story id="fizz-buzz-game" name="Fizz Buzz Game" path="fizzbuzz/fizzbuzz.feature"/>
+  <tags>
+    <tag name="Fizzbuzz" type="capability"/>
+    <tag name="Fizz Buzz Game" type="feature"/>
+    <tag name="Fizzbuzz/Fizz buzz game" type="feature"/>
+    <tag name="Fizzbuzz/Fizzbuzz" type="story"/>
+    <tag name="fizzbuzz" type="tag"/>
+  </tags>
+  <examples>
+    <datasets>
+      <dataset startRow="0" rowCount="0" name="" description=""/>
+    </datasets>
+    <headers>
+      <header>playedNumber</header>
+      <header>expectedResult</header>
+    </headers>
+    <rows>
+      <row result="SUCCESS">
+        <value>1</value>
+        <value>1</value>
+      </row>
+    </rows>
+  </examples>
+  <test-group name="[1] {playedNumber=1, expectedResult=1}" result="SUCCESS">
+    <test-step result="SUCCESS" duration="252">
+      <description>Given I am officiating a FizzBuzz game</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="7">
+      <description>When the number 1 is played</description>
+    </test-step>
+    <test-step result="SUCCESS" duration="11">
+      <description>Then I should be told the correct answer is &quot;1&quot;</description>
+    </test-step>
+  </test-group>
+</acceptance-test-run>

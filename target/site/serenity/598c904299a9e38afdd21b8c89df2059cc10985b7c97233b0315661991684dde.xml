@@ -1,0 +1,18 @@
+<acceptance-test-run title="Add two numbers" name="Add two numbers" description="" steps="2" successful="0" failures="0" skipped="0" ignored="2" pending="0" result="IGNORED" duration="610" timestamp="2015-05-22T15:53:09.403-04:00">
+  <user-story id="calculator" name="Calculator" path="calculator/calculator.feature"/>
+  <tags>
+    <tag name="Calculator" type="capability"/>
+    <tag name="Calculator" type="feature"/>
+    <tag name="Calculator/Calculator" type="feature"/>
+    <tag name="Calculator/Calculator" type="story"/>
+    <tag name="calculator" type="tag"/>
+  </tags>
+  <test-group name="Given I have a calculator" result="IGNORED">
+    <test-step result="IGNORED" duration="6">
+      <description>When I add 2 and 3</description>
+    </test-step>
+    <test-step result="IGNORED" duration="3">
+      <description>Then the result should be 5</description>
+    </test-step>
+  </test-group>
+</acceptance-test-run>

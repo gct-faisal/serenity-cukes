@@ -1,0 +1,42 @@
+<acceptance-test-run title="Should list items related to a specified keyword" name="Should list items related to a specified keyword" description="" steps="3" successful="3" failures="0" skipped="0" ignored="0" pending="0" result="SUCCESS" duration="838" timestamp="2015-05-22T15:44:31.556-04:00">
+  <user-story id="searching-by-keyword" name="Searching by keyword" path="search/search.feature"/>
+  <tags>
+    <tag name="Search" type="capability"/>
+    <tag name="Search/Searching by keyword" type="feature"/>
+    <tag name="Searching by keyword" type="feature"/>
+    <tag name="Search/Search" type="story"/>
+    <tag name="search" type="tag"/>
+  </tags>
+  <examples>
+    <datasets>
+      <dataset startRow="0" rowCount="0" name="" description=""/>
+    </datasets>
+    <headers>
+      <header>article</header>
+      <header>keyword</header>
+    </headers>
+    <rows>
+      <row result="SUCCESS">
+        <value>a wool scarf</value>
+        <value>wool</value>
+      </row>
+    </rows>
+  </examples>
+  <test-group name="[1] {article=a wool scarf, keyword=wool}" result="SUCCESS">
+    <test-group name="Given I want to buy a wool scarf" result="SUCCESS">
+      <test-step result="SUCCESS" duration="41">
+        <description>Opens etsy home page</description>
+      </test-step>
+    </test-group>
+    <test-group name="When I search for items containing &apos;wool&apos;" result="SUCCESS">
+      <test-step result="SUCCESS" duration="8">
+        <description>Searches for items containing: &lt;span class=&apos;step-parameter&apos;&gt;wool&lt;/span&gt;</description>
+      </test-step>
+    </test-group>
+    <test-group name="Then I should only see items related to &apos;wool&apos;" result="SUCCESS">
+      <test-step result="SUCCESS" duration="8">
+        <description>Should see items related to: &lt;span class=&apos;step-parameter&apos;&gt;wool&lt;/span&gt;</description>
+      </test-step>
+    </test-group>
+  </test-group>
+</acceptance-test-run>
