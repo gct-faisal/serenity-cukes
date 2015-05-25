@@ -124,8 +124,8 @@
                         </goals>
                         <configuration>
                             <projectName>cucumber-jvm-example</projectName>
-                            <outputDirectory>${project.build.directory}/cucumber-html-reports</outputDirectory>
-                            <cucumberOutput>${project.build.directory}/cucumber.json</cucumberOutput>
+                            <outputDirectory>target/cuke-reports/cucumber-html-reports</outputDirectory>
+                            <cucumberOutput>target/cuke-reports/cucumber.json</cucumberOutput>
                             <enableFlashCharts>false</enableFlashCharts>
                         </configuration>
                     </execution>
